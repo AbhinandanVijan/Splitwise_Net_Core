@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tp4EF5ekpZFVdC3hh93SaNavb15L4gR39RGthGylGxw=",
+  "Source": "Splitwise.Api",
+  "BasePath": "_content/Splitwise.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

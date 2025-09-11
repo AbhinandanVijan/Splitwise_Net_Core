@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster.Core" Version="1.2.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.15" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Authorization/" />
+    <Folder Include="Controllers/" />
+    <Folder Include="Data/" />
+    <Folder Include="DTOs/" />
+    <Folder Include="Mapping/" />
+    <Folder Include="Middleware/" />
+    <Folder Include="Properties/Entities/" />
+    <Folder Include="Services/" />
+    <Folder Include="Strategies/" />
+    <Folder Include="Validators/" />
+  </ItemGroup>
+
+</Project>
