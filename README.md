@@ -61,38 +61,38 @@ React (Vite) ──> Vite Dev Proxy (/api/*)
 ```
 ## ⚡ Getting Started
 1. Clone the repository
-git clone https://github.com/yourusername/splitwise-clone.git
-cd splitwise-clone
+    git clone https://github.com/yourusername/splitwise-clone.git
+    cd splitwise-clone
 
 2. Backend Setup
 
-Configure Database
-
-Update appsettings.Development.json with your PostgreSQL connection string.
-
-Run Migrations
-
-dotnet ef database update
-
-
-Run API
-
-cd src/Splitwise.Api
-dotnet run
+    Configure Database
+    
+    Update appsettings.Development.json with your PostgreSQL connection string.
+    
+    Run Migrations
+    
+    dotnet ef database update
 
 
-API will be available at:
-Swagger: http://localhost:5085/swagger/index.html
+    Run API
+    
+    cd src/Splitwise.Api
+    dotnet run
+    
+    
+    API will be available at:
+    Swagger: http://localhost:5085/swagger/index.html
 
 3. Frontend Setup
-cd client
-npm install
-npm run dev
-
-
-Frontend runs on: http://localhost:5173
-
-Note: vite.config.js is preconfigured to proxy /api to http://localhost:5085.
+    cd client
+    npm install
+    npm run dev
+    
+    
+    Frontend runs on: http://localhost:5173
+    
+    Note: vite.config.js is preconfigured to proxy /api to http://localhost:5085.
 
 🔑 Authentication Example
 
