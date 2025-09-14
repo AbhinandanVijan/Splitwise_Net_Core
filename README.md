@@ -98,23 +98,23 @@ React (Vite) ──> Vite Dev Proxy (/api/*)
 
 Login
 
-POST /api/auth/login
-{
-  "email": "user@example.com",
-  "password": "secret"
-}
+  POST /api/auth/login
+  {
+    "email": "user@example.com",
+    "password": "secret"
+  }
 
 
 Use Token
-Add to every request:
-
-Authorization: Bearer <JWT_TOKEN>
+  Add to every request:
+  
+  Authorization: Bearer <JWT_TOKEN>
 
 
 React Axios Setup
-
-api.interceptors.request.use((config) => {
-  const token = localStorage.getItem('token');
-  if (token) config.headers.Authorization = `Bearer ${token}`;
-  return config;
-});
+  
+  api.interceptors.request.use((config) => {
+    const token = localStorage.getItem('token');
+    if (token) config.headers.Authorization = `Bearer ${token}`;
+    return config;
+  });
