@@ -10,5 +10,7 @@ public class User
     public string? AvatarUrl { get; set; }
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
+    public string PasswordHash { get; set; } = default!;
+
     public ICollection<Membership> Memberships { get; set; } = new List<Membership>();
 }
