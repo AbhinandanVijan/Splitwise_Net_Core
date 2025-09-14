@@ -1,0 +1,7 @@
+:root { color-scheme: light; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, Helvetica, Arial, "Apple Color Emoji"; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f8fafc; color: #0f172a; }
+input, select, button { font: inherit; }
+input, select { padding: 8px 10px; border: 1px solid #e5e7eb; border-radius: 8px; background: white; }
+button { cursor: pointer; }
+h2, h3 { margin: 0 0 8px 0; }
